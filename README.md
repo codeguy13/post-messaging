@@ -1,6 +1,6 @@
-#Run 
+#`Run` 
 ### `npm install`
-#Then
+Then
 ### `npm start`
 
-#Have fun!!
+#`Have fun!!`
