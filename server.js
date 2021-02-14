@@ -9,7 +9,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: false}))
 
 var messages = [
-    
+
 ]
 
 app.get('/messages', (req, res) =>{
@@ -27,5 +27,5 @@ io.on('connection', (socket) => {
 })
 
 var server = http.listen(3000, () => {
-    console.log('server is listening on port', server.address().port)
+    console.log('server is listening on http://localhost:'+ server.address().port)
 })
